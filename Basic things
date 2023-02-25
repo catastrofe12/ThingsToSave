@@ -1,0 +1,5 @@
+
+// Comprueba si el numerador es divisible sin resultar en decimal 
+
+bool isIntDivisionValid(int numerator, int denominator) {
+    return (float)numerator / (float)denominator == numerator / denominator;
